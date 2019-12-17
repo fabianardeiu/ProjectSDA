@@ -200,11 +200,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\DataStructure\\DataStructure.csproj",
+      "projectUniqueName": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\DataStructure\\DataStructure.csproj",
       "projectName": "DataStructure",
-      "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\DataStructure\\DataStructure.csproj",
+      "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\DataStructure\\DataStructure.csproj",
       "packagesPath": "C:\\Users\\Fabian Ardeiu\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\DataStructure\\obj\\",
+      "outputPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\DataStructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -223,8 +223,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Domain\\Domain.csproj"
+            "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Domain\\Domain.csproj"
             }
           }
         }

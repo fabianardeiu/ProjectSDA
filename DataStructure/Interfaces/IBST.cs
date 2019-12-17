@@ -1,4 +1,5 @@
-﻿using DataStructure.Interfaces;
+﻿using Core.Interfaces;
+using DataStructure.Interfaces;
 
 namespace DataStructure
 {
@@ -8,9 +9,10 @@ namespace DataStructure
         IBSTNode GetBSTNodeById(int id);
 
         void Insert(IData data);
-        void DeleteBSTNodeById(int id);
+        bool DeleteBSTNodeById(int id);
         bool Search(IData data);
         void Inorder(IBSTNode root);
+        IList GetAllNodes(IBSTNode root);
         IBSTNode GetBSTNodeParentById(int id);
     }
 }

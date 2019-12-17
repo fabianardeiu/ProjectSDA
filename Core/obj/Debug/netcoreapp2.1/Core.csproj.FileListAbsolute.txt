@@ -12,3 +12,17 @@ C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Core\obj\Debug\netcoreapp2.1\
 C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.csproj.CopyComplete
 C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.dll
 C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.pdb
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\bin\Debug\netcoreapp2.1\Core.deps.json
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\bin\Debug\netcoreapp2.1\Core.dll
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\bin\Debug\netcoreapp2.1\DataStructure.dll
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\bin\Debug\netcoreapp2.1\Domain.dll
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\bin\Debug\netcoreapp2.1\DataStructure.pdb
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\bin\Debug\netcoreapp2.1\Domain.pdb
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.csprojAssemblyReference.cache
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.csproj.CoreCompileInputs.cache
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfoInputs.cache
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.AssemblyInfo.cs
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.csproj.CopyComplete
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.dll
+C:\Personal\Scoala\Info\AN2\SDA\ProiectSDA\Core\obj\Debug\netcoreapp2.1\Core.pdb

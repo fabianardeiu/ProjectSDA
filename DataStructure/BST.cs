@@ -1,4 +1,5 @@
-﻿using DataStructure.Interfaces;
+﻿using Core.Interfaces;
+using DataStructure.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,36 +8,38 @@ namespace DataStructure
 {
     public class BST : IBST
     {
+        private IList _list = new List();
         public IBSTNode Root { get; set; }
 
-        public void DeleteBSTNodeById(int id)
+        public bool DeleteBSTNodeById(int id)
         {
             IBSTNode toDelete = GetBSTNodeById(id);
-            if ( toDelete != null)
+            if (toDelete == null)
+                return false;
+            else if(GetBSTNodeNumberOfChildrens(toDelete.Data.Id) == 0)
             {
-                if(GetBSTNodeNumberOfChildrens(toDelete.Data.Id) == 0)
-                {
-                    DeleteBSTNode0Childrens(toDelete);
-                }
-                else if(GetBSTNodeNumberOfChildrens(toDelete.Data.Id) == 1)
-                {
-                    DeleteBSTNode1Children(toDelete);
-                }
-                else if(GetBSTNodeNumberOfChildrens(toDelete.Data.Id) == 2)
-                {
-                    DeleteBSTNode2Childrens(toDelete);
-                }
-                else
-                {
-                    Console.WriteLine("BSTNode could not be found.");
-                }
+                DeleteBSTNode0Childrens(toDelete);
             }
+            else if(GetBSTNodeNumberOfChildrens(toDelete.Data.Id) == 1)
+            {
+                DeleteBSTNode1Children(toDelete);
+            }
+            else if(GetBSTNodeNumberOfChildrens(toDelete.Data.Id) == 2)
+            {
+                DeleteBSTNode2Childrens(toDelete);
+            }
+            else
+            {
+                return false;
+            }
+            return true;
+
         }
 
         public IBSTNode GetBSTNodeParentById(int id)
         {
             IBSTNode temp = Root;
-            while (temp.Data.Id != id && temp.Right.Data.Id != id)
+            while (temp.Data.Id != id && temp.Right?.Data.Id != id)
             {
                 if(temp.Data.Id > id)
                 {
@@ -77,10 +80,18 @@ namespace DataStructure
             if(root != null)
             {
                 Inorder(root.Left);
-                Console.WriteLine(root.Data.Id + " ");
+                _list.Insert(root.Data);
                 Inorder(root.Right);
             }
         }
+
+        public IList GetAllNodes(IBSTNode root)
+        {
+            _list = new List();
+            Inorder(root);
+            return _list;
+        }
+
 
         public void Insert(IData data)
         {

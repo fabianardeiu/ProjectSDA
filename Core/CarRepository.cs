@@ -7,46 +7,39 @@ namespace Core
 {
     public class CarRepository : IRepository
     {
-        private static IBST _contextBST = new BST();
-
-        private static IList _contextList = new List();
+        private static IBST _context = new BST();
 
         static CarRepository()
         {
-            var car1 = new Car { Make = "Mercedes-Benz", Model = "E Class", Year = 2010 };
-            var car2 = new Car { Make = "Mercedes-Benz", Model = "S Class", Year = 2011 };
-            var car3 = new Car { Make = "Mercedes-Benz", Model = "C Class", Year = 2018 };
-            var car4 = new Car { Make = "Mercedes-Benz", Model = "A Class", Year = 2000 };
-            _contextBST.Insert(car1);
-            _contextBST.Insert(car2);
-            _contextBST.Insert(car3);
-            _contextBST.Insert(car4);
-
-            _contextList.Insert(car1);
-            _contextList.Insert(car2);
-            _contextList.Insert(car3);
-            _contextList.Insert(car4);
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "E Class", Year = 2010 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "S Class", Year = 2011 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "C Class", Year = 2018 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "A Class", Year = 2000 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "E Class", Year = 2009 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "G Class", Year = 1999 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "GLE Class", Year = 2017 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "ML Class", Year = 2006 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "GLS Class", Year = 2019 });
+            _context.Insert(new Car { Make = "Mercedes-Benz", Model = "V Class", Year = 2018 });
         }
         public void Add(IData data)
         {
-            _contextBST.Insert(data);
-            _contextList.Insert(data);
+            _context.Insert(data);
         }
 
         public void Delete(IData data)
         {
-            _contextBST.DeleteBSTNodeById(data.Id);
-            _contextList.Delete(data);
+            _context.DeleteBSTNodeById(data.Id);
         }
 
         public IList GetAll()
         {
-            return _contextList;
+            return _context.GetAllNodes(_context.Root);
         }
 
         public IData GetById(int id)
         {
-            var BSTNode = _contextBST.GetBSTNodeById(id);
+            var BSTNode = _context.GetBSTNodeById(id);
             if(BSTNode == null)
             {
                 return null;
@@ -56,21 +49,16 @@ namespace Core
 
         public IData Update(IData data)
         {
-            var toUpdateInBst = _contextBST.GetBSTNodeById(data.Id);
-            var toUpdateInList = _contextList.FindNodeInListByData(data);
+            var toUpdate = _context.GetBSTNodeById(data.Id);
 
-            if (toUpdateInBst == null || toUpdateInList == null)
+            if (toUpdate == null)
                 return null;
 
-            toUpdateInBst.Data = data;
-            _contextBST.DeleteBSTNodeById(data.Id);
-            _contextBST.Insert(toUpdateInBst.Data);
+            toUpdate.Data = data;
+            _context.DeleteBSTNodeById(data.Id);
+            _context.Insert(toUpdate.Data);
 
-            toUpdateInList.Data = data;
-            _contextList.Delete(data);
-            _contextList.Insert(toUpdateInList.Data);
-
-            return toUpdateInList.Data;
+            return toUpdate.Data;
         }
     }
 }

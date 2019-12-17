@@ -11855,11 +11855,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Api\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Api\\Api.csproj",
+      "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\Fabian Ardeiu\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Api\\obj\\",
+      "outputPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11878,8 +11878,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Core\\Core.csproj": {
-              "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Core\\Core.csproj"
+            "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Core\\Core.csproj": {
+              "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Core\\Core.csproj"
             }
           }
         }

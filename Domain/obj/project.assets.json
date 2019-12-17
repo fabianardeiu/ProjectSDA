@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Fabian Ardeiu\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\Proiect\\ProiectSDA\\Domain\\obj\\",
+      "outputPath": "C:\\Personal\\Scoala\\Info\\AN2\\SDA\\ProiectSDA\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
