@@ -1,0 +1,9 @@
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\obj\Debug\netstandard2.0\Domain.csprojAssemblyReference.cache
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\Domain\obj\Debug\netstandard2.0\Domain.pdb

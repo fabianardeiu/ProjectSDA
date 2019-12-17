@@ -1,0 +1,12 @@
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\bin\Debug\netstandard2.0\DataStructure.deps.json
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\bin\Debug\netstandard2.0\DataStructure.dll
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\bin\Debug\netstandard2.0\DataStructure.pdb
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\obj\Debug\netstandard2.0\DataStructure.csprojAssemblyReference.cache
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\obj\Debug\netstandard2.0\DataStructure.csproj.CoreCompileInputs.cache
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\obj\Debug\netstandard2.0\DataStructure.AssemblyInfoInputs.cache
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\obj\Debug\netstandard2.0\DataStructure.AssemblyInfo.cs
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\obj\Debug\netstandard2.0\DataStructure.dll
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\obj\Debug\netstandard2.0\DataStructure.pdb
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\bin\Debug\netstandard2.0\Domain.dll
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\bin\Debug\netstandard2.0\Domain.pdb
+C:\Personal\Scoala\Info\AN2\SDA\Proiect\ProiectSDA\DataStructure\obj\Debug\netstandard2.0\DataStructure.csproj.CopyComplete
