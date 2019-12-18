@@ -33,7 +33,7 @@ namespace Api.Controllers
         {
             var car = _repo.GetById(id);
             if (car == null)
-                return BadRequest("No card could be found.");
+                return BadRequest("No car could be found.");
             return Ok(car);
         }
 
