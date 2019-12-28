@@ -10,7 +10,6 @@ namespace DataStructure
         public IListNode Current { get; set; }
         public IListNode Previous { get; set; }
 
-
         public void Insert(IData data)
         {
             if(First == null)

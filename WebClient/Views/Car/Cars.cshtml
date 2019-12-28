@@ -1,0 +1,41 @@
+﻿@model DataStructure.List;
+
+@{
+    ViewData["Title"] = "Cars";
+}
+<div style="margin-top:50px;">
+
+    <p>
+        <a asp-route="CreateCar"><span class="glyphicon glyphicon-plus"></span></a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th colspan="2">Commands</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var ctr = 1;
+                var current = Model.First;
+                while (current != null)
+                {
+                    <tr>
+                        <td> @ctr</td>
+                        <td> @current.Data.Make</td>
+                        <td> @current.Data.Model</td>
+                        <td> @current.Data.Year</td>
+                        <td><a asp-route="DeleteConfirmation" asp-route-id="@current.Data.Id"><span class="glyphicon glyphicon-remove"></span></a></td>
+                        <td><a asp-route="UpdateCar" asp-route-id="@current.Data.Id"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                    </tr>
+                    current = current.Next;
+                    ctr += 1;
+                }
+            }
+        </tbody>
+    </table>
+</div>
